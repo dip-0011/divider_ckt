@@ -70,7 +70,7 @@ always @(posedge clk) begin
                   loadN_R = 1'b0;
                   loadP_R = 1'b0;
                   incQ_R = 1'b0;
-                  stop_R = 1'b1;
+                  //stop_R = 1'b1;
                   state = s4;
               end
               end
